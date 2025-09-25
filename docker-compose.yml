@@ -33,8 +33,8 @@ services:
 
   frontend:
     build:
-      context: .
-      dockerfile: /frontend/foodrecipe-frontend/Dockerfile
+      context: ./frontend/foodrecipe-frontend
+      dockerfile: Dockerfile
     container_name: foodrecipe-frontend
     depends_on:
       - backend
