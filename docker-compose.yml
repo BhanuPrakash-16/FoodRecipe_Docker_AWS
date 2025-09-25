@@ -18,7 +18,7 @@ services:
   backend:
     build:
       context: ./backend/foodrecipe-backend
-      dockerfile: Dockerfile.backend
+      dockerfile: Dockerfile
     container_name: foodrecipe-backend
     depends_on:
       - db
@@ -34,7 +34,7 @@ services:
   frontend:
     build:
       context: ./frontend/foodrecipe-frontend
-      dockerfile: Dockerfile.frontend
+      dockerfile: Dockerfile
     container_name: foodrecipe-frontend
     depends_on:
       - backend
