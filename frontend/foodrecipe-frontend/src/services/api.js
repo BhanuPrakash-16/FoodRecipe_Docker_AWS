@@ -1,4 +1,4 @@
-const API_BASE_URL = "http://<EC2_PUBLIC_IP>:8090";  // backend URL
+const API_BASE_URL = "http://13.53.168.76:8090";  // backend URL
 
 
 class ApiService {
