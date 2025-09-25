@@ -48,3 +48,4 @@ volumes:
 
 networks:
   foodrecipe-net:
+    driver: bridge
