@@ -1,4 +1,4 @@
-const API_BASE_URL = "http://13.48.27.142 :8090";  // backend URL
+const API_BASE_URL = "http://13.60.17.93:8090";  // backend URL
 
 
 class ApiService {
